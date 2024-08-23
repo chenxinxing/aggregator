@@ -46,7 +46,7 @@ jobs:
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         # Add, commit, and push changes
-        git add data/* && echo A
+        git add data && echo A
         git commit -m '上传结果内容' && echo B
         git push -u origin master && echo C
       env:
