@@ -46,11 +46,11 @@ jobs:
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         # Add, commit, and push changes
-        git add data && echo A
-        git commit -m '上传结果内容' && echo B
-        git push -u origin master && echo C
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        git add data && echo “--add data dir to git”
+        git commit -m '上传结果内容' && echo “--git commit”
+        git push -u origin master && echo “--git push”
+      #env:
+      #  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name : 上传结果内容｜Upload artifact
       uses: actions/upload-artifact@master
       with:
