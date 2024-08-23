@@ -43,5 +43,5 @@ jobs:
       uses: actions/upload-artifact@master
       with:
         name: aggregator
-        path: subscribe
+        path: data
     
