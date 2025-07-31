@@ -86,7 +86,7 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         # 动态构造提交信息
-        commit_message: "chenxx(auto-update): 更新于 ${{ env.CURRENT_DATE }} - 文件: ${{ env.CHANGED_FILES } M"
+        commit_message: "chenxx(auto-update): 更新于 ${{ env.CURRENT_DATE }} - 文件: ${{ env.CHANGED_FILES }}"
         # 提交信息末尾添加 [ci skip] 以防止工作流循环触发
         commit_options: '--message "[ci skip]"'
         # 要添加的文件，'.' 代表所有文件
