@@ -41,20 +41,7 @@ jobs:
         git clone https://github.com/wzdnzd/aggregator.git
         python -u subscribe/collect.py -s
         #save it to ['/home/runner/work/aggregator/aggregator/data/clash.yaml', '/home/runner/work/aggregator/aggregator/data/v2ray.txt', '/home/runner/work/aggregator/aggregator/data/singbox.json']
-    #- name: Test with pytest
-    #  run: |
-    #    pytest
-    #- name: Upload to this repo
-    #  run: |
-        # Configure git
-    #    git config --global user.name "GitHub Actions"
-    #    git config --global user.email "actions@github.com"
-        # Add, commit, and push changes
-    #    git add data && echo “--add data dir to git”
-    #    git commit -m '上传结果内容' && echo “--git commit”
-    #    git push -u origin master && echo “--git push”
-      #env:
-      #  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     - name : 上传结果内容｜Upload artifact
       uses: actions/upload-artifact@master
       with:
@@ -77,6 +64,7 @@ jobs:
         # 获取当前日期，格式为 YYYY-MM-DD
         echo "CURRENT_DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
         # 获取所有变动（新增、修改）的文件列表
+        echo "这是一个动态文件" > "report-$(date +'%Y-%m-%d').md"
         # git status --porcelain 会列出变动文件，我们提取出文件名
         # tr '\n' ' ' 将换行符替换为空格，使文件名在同一行显示
         echo "CHANGED_FILES=$(git status --porcelain | awk '{print $2}' | tr '\n' ' ')" >> $GITHUB_ENV
@@ -86,9 +74,9 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         # 动态构造提交信息
-        commit_message: "chenxx(auto-update): 更新于 ${{ env.CURRENT_DATE }} - 文件: ${{ env.CHANGED_FILES }} "
+        commit_message: "chenxx(auto-update): 更新于 ${{ env.CURRENT_DATE }} - 文件: ${{ env.CHANGED_FILES }} [ci skip]"
         # 提交信息末尾添加 [ci skip] 以防止工作流循环触发
-        commit_options: '--message "[ci skip]"'
+        # commit_options: '--message "[ci skip]"'
         # 要添加的文件，'.' 代表所有文件
         # file_pattern: .
-        file_pattern: data/clash.yaml
+        file_pattern: data
