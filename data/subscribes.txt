@@ -1,3 +1,2 @@
 https://dftyfdf1j00ll.dashuai.us/api/v1/client/subscribe?token=eca8b98f118e06d744f77cf8e0d01303
-https://dftyfdf1j00ll.dashuai.us/api/v1/client/subscribe?token=076465b751b68f0dad95bd695b51684f
-https://dftyfdf1j00ll.dashuai.us/api/v1/client/subscribe?token=2315310530d3db5feec982f0aff7a879
+https://dftyfdf1j00ll.dashuai.us/api/v1/client/subscribe?token=9e8d0928e4923331438e2583f5416347
