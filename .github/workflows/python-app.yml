@@ -43,6 +43,7 @@ jobs:
         git clone https://github.com/wzdnzd/aggregator.git
         python -u subscribe/collect.py -s
         #save it to ['/home/runner/work/aggregator/aggregator/data/clash.yaml', '/home/runner/work/aggregator/aggregator/data/v2ray.txt', '/home/runner/work/aggregator/aggregator/data/singbox.json']
+        awk '!/试用|订购|线路/' /home/runner/work/aggregator/aggregator/data/clash.yaml > /home/runner/work/aggregator/aggregator/data/clash-new.yaml
 
     - name : 上传结果内容｜Upload artifact
       uses: actions/upload-artifact@master
