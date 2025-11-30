@@ -1,3 +1,6 @@
 proxies:
-  - {name: 🇭🇰 香港2-1K, server: 185.155.235.225, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: b2ff8123-34a8-41e6-b0ab-f047611a87cd, udp: true}
-  - {name: 🇭🇰 香港2-1C, server: 185.155.235.225, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: 34b52929-cdfd-4841-8501-9cdd0b0603b1, udp: true}
+  - {name: 🇭🇰 香港2-1E, server: 185.155.235.225, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: 59f4b4e2-dce0-4fe7-94b2-790419ba4dce, udp: true}
+  - {name: 🇭🇰 香港2-1L, server: 185.155.235.225, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: 84d0ee20-0aaf-4466-b4e9-9c3be4c7ad01, udp: true}
+  - {name: 🇭🇰 香港2-1K, server: 185.155.235.225, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: 421afb17-4ba2-4192-b3aa-3c6998b88c09, udp: true}
+  - {name: 🇭🇰 香港2-1G, server: 185.155.235.225, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: d1905f8a-8f52-4490-afa9-a9a261bd9dcf, udp: true}
+  - {name: 🇭🇰 香港2-1J, server: 185.155.235.225, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: 34b52929-cdfd-4841-8501-9cdd0b0603b1, udp: true}
