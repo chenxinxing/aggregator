@@ -1,13 +1,9 @@
 proxies:
-  - {name: 🇯🇵 日本4-1C, server: 154.83.92.111, port: 10044, type: ss, cipher: chacha20-ietf-poly1305, password: d1905f8a-8f52-4490-afa9-a9a261bd9dcf, udp: true}
-  - {name: 🇯🇵 日本3-1C, server: 154.83.92.111, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: d1905f8a-8f52-4490-afa9-a9a261bd9dcf, udp: true}
-  - {name: 🇯🇵 日本1-1B, server: 154.83.92.111, port: 10014, type: ss, cipher: chacha20-ietf-poly1305, password: c1538c12-3224-49c5-a81b-428e6e23d59e, udp: true}
-  - {name: 🇯🇵 日本4-1B, server: 154.83.92.111, port: 10044, type: ss, cipher: chacha20-ietf-poly1305, password: c1538c12-3224-49c5-a81b-428e6e23d59e, udp: true}
+  - {name: 🇯🇵 日本1-1B, server: 154.83.92.111, port: 10014, type: ss, cipher: chacha20-ietf-poly1305, password: d1905f8a-8f52-4490-afa9-a9a261bd9dcf, udp: true}
   - {name: 🇯🇵 日本2-1A, server: 154.83.92.111, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: 62cc53ee-09a0-4784-abb0-33c7e0e4c327, udp: true}
-  - {name: 🇯🇵 日本3-1B, server: 154.83.92.111, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: c1538c12-3224-49c5-a81b-428e6e23d59e, udp: true}
-  - {name: 🇯🇵 日本1-1C, server: 154.83.92.111, port: 10014, type: ss, cipher: chacha20-ietf-poly1305, password: d1905f8a-8f52-4490-afa9-a9a261bd9dcf, udp: true}
-  - {name: 🇯🇵 日本2-1C, server: 154.83.92.111, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: d1905f8a-8f52-4490-afa9-a9a261bd9dcf, udp: true}
-  - {name: 🇯🇵 日本4-1A, server: 154.83.92.111, port: 10044, type: ss, cipher: chacha20-ietf-poly1305, password: 62cc53ee-09a0-4784-abb0-33c7e0e4c327, udp: true}
-  - {name: 🇯🇵 日本3-1A, server: 154.83.92.111, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: 62cc53ee-09a0-4784-abb0-33c7e0e4c327, udp: true}
-  - {name: 🇯🇵 日本2-1B, server: 154.83.92.111, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: c1538c12-3224-49c5-a81b-428e6e23d59e, udp: true}
   - {name: 🇯🇵 日本1-1A, server: 154.83.92.111, port: 10014, type: ss, cipher: chacha20-ietf-poly1305, password: 62cc53ee-09a0-4784-abb0-33c7e0e4c327, udp: true}
+  - {name: 🇯🇵 日本3-1A, server: 154.83.92.111, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: 62cc53ee-09a0-4784-abb0-33c7e0e4c327, udp: true}
+  - {name: 🇯🇵 日本2-1B, server: 154.83.92.111, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: d1905f8a-8f52-4490-afa9-a9a261bd9dcf, udp: true}
+  - {name: 🇯🇵 日本4-1A, server: 154.83.92.111, port: 10044, type: ss, cipher: chacha20-ietf-poly1305, password: 62cc53ee-09a0-4784-abb0-33c7e0e4c327, udp: true}
+  - {name: 🇯🇵 日本3-1B, server: 154.83.92.111, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: d1905f8a-8f52-4490-afa9-a9a261bd9dcf, udp: true}
+  - {name: 🇯🇵 日本4-1B, server: 154.83.92.111, port: 10044, type: ss, cipher: chacha20-ietf-poly1305, password: d1905f8a-8f52-4490-afa9-a9a261bd9dcf, udp: true}
