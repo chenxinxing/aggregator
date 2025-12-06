@@ -1,8 +1,8 @@
 proxies:
-  - {name: 🇭🇰 香港3, server: 154.16.10.201, port: 10053, type: ss, cipher: chacha20-ietf-poly1305, password: 1a2489ab-ccfe-4206-807e-33d24bcdeddc, udp: true}
-  - {name: 🇯🇵 日本3, server: 154.83.92.111, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: 1a2489ab-ccfe-4206-807e-33d24bcdeddc, udp: true}
-  - {name: 🇯🇵 日本4, server: 154.83.92.111, port: 10044, type: ss, cipher: chacha20-ietf-poly1305, password: 1a2489ab-ccfe-4206-807e-33d24bcdeddc, udp: true}
-  - {name: 🇭🇰 香港1, server: 154.16.10.201, port: 10051, type: ss, cipher: chacha20-ietf-poly1305, password: 1a2489ab-ccfe-4206-807e-33d24bcdeddc, udp: true}
-  - {name: 🇭🇰 香港4, server: 154.16.10.201, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: 1a2489ab-ccfe-4206-807e-33d24bcdeddc, udp: true}
-  - {name: 🇯🇵 日本2, server: 154.83.92.111, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: 1a2489ab-ccfe-4206-807e-33d24bcdeddc, udp: true}
-  - {name: 🇭🇰 香港2, server: 154.16.10.201, port: 10052, type: ss, cipher: chacha20-ietf-poly1305, password: 1a2489ab-ccfe-4206-807e-33d24bcdeddc, udp: true}
+  - {name: 🇭🇰 香港2, server: 154.16.10.201, port: 10052, type: ss, cipher: chacha20-ietf-poly1305, password: 265becb8-f584-48b3-9f2c-035f1f7d38ef, udp: true}
+  - {name: 🇭🇰 香港3, server: 154.16.10.201, port: 10053, type: ss, cipher: chacha20-ietf-poly1305, password: 265becb8-f584-48b3-9f2c-035f1f7d38ef, udp: true}
+  - {name: 🇭🇰 香港4, server: 154.16.10.201, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: 265becb8-f584-48b3-9f2c-035f1f7d38ef, udp: true}
+  - {name: 🇯🇵 日本3, server: 154.83.92.111, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: 265becb8-f584-48b3-9f2c-035f1f7d38ef, udp: true}
+  - {name: 🇯🇵 日本4, server: 154.83.92.111, port: 10044, type: ss, cipher: chacha20-ietf-poly1305, password: 265becb8-f584-48b3-9f2c-035f1f7d38ef, udp: true}
+  - {name: 🇭🇰 香港1, server: 154.16.10.201, port: 10051, type: ss, cipher: chacha20-ietf-poly1305, password: 265becb8-f584-48b3-9f2c-035f1f7d38ef, udp: true}
+  - {name: 🇯🇵 日本2, server: 154.83.92.111, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: 265becb8-f584-48b3-9f2c-035f1f7d38ef, udp: true}
