@@ -1,4 +1,6 @@
-https://www.yywhale.com/api/v1/client/subscribe?token=c0c72da6cbe0519157c9f095e914a22c
-https://sub.kingfisher.top/s/e0369977ef9f5cdead804c37d7667b26
+https://go.yueyun.de/api/v1/client/subscribe?token=cb00a53348d11225d171970a6984ebb5
 http://113.207.49.134:20088/api?token=abe120e36b691044264e4781e34cd506
+https://sub.kingfisher.top/s/f8e881db42d6b8776f66ab95c3e84d79
+https://www.yywhale.com/api/v1/client/subscribe?token=2c3a810a1441d5ba992d9421733b0229
+https://sub.kingfisher.top/s/e0369977ef9f5cdead804c37d7667b26
 https://go.yueyun.de/api/v1/client/subscribe?token=49c2251a7f520b6321d4e640580d149c
