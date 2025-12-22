@@ -1,29 +1,23 @@
 proxies:
-  - {name: 🇭🇰 A2港HK7|2x, server: a7.ammmd.cc, port: 41907, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
-  - {name: 🇺🇸 T1美US1, server: 77.110.109.168, port: 41501, type: trojan, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, sni: osxapps.itunes.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 A2美US15|2x, server: a15.ammmd.cc, port: 41915, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
-  - {name: 🇯🇵 H1日本JP2|1x, server: h2.ammmd.cc, port: 41602, type: hysteria2, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, auth: 11e94b13-601d-426c-9ca9-5b92355d0a1f, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 A2日JP10|2x, server: a10.ammmd.cc, port: 41910, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
-  - {name: 🇹🇼 H1台湾TW3|1x, server: h3.ammmd.cc, port: 41603, type: hysteria2, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, auth: 11e94b13-601d-426c-9ca9-5b92355d0a1f, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 H1香港HK1|1x, server: h1.ammmd.cc, port: 41601, type: hysteria2, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, auth: 11e94b13-601d-426c-9ca9-5b92355d0a1f, skip-cert-verify: true, udp: true}
-  - {name: V2US8|2x, server: vm8.ammmd.cc, port: 41708, type: vmess, uuid: 11e94b13-601d-426c-9ca9-5b92355d0a1f, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇺🇸 T2美US04|1x, server: t4.ammmd.cc, port: 41504, type: trojan, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, sni: osxapps.itunes.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 A3新SG21|2x, server: a16.aood.cc, port: 41916, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
-  - {name: 🇭🇰 A1港HK4|2x, server: a4.ammmd.cc, port: 41904, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
-  - {name: 🇹🇼 A3台TW24|2x, server: a24.aood.cc, port: 41924, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
-  - {name: 🇺🇸 A1美US2|1x, server: a2.ammmd.cc, port: 41902, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
-  - {name: 🇸🇬 H1新加坡SG4|1x, server: h4.ammmd.cc, port: 41604, type: hysteria2, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, auth: 11e94b13-601d-426c-9ca9-5b92355d0a1f, skip-cert-verify: true, udp: true}
-  - {name: V2US6|2x, server: vm6.ammmd.cc, port: 41706, type: vmess, uuid: 11e94b13-601d-426c-9ca9-5b92355d0a1f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 V1美US02|1x, server: vm2.ammmd.cc, port: 41702, type: vmess, uuid: 11e94b13-601d-426c-9ca9-5b92355d0a1f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 A1港HK5|2x, server: a5.ammmd.cc, port: 41905, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
-  - {name: 🇺🇸 H1美国US5|1x, server: h5.ammmd.cc, port: 41605, type: hysteria2, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, auth: 11e94b13-601d-426c-9ca9-5b92355d0a1f, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 V1美US1, server: 77.110.109.168, port: 41701, type: vmess, uuid: 11e94b13-601d-426c-9ca9-5b92355d0a1f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 T2韩KR05|3x, server: t5.ammmd.cc, port: 41505, type: trojan, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, sni: osxapps.itunes.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 T1香港HK02|1x, server: t2.ammmd.cc, port: 41502, type: trojan, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, sni: osxapps.itunes.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 A2新SG9|2x, server: a6.ammmd.cc, port: 41906, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
+  - {name: 🇺🇸 T1美US1, server: 77.110.109.168, port: 41501, type: trojan, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, sni: osxapps.itunes.apple.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 H1台湾TW3|1x, server: h3.ammmd.cc, port: 41603, type: hysteria2, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, auth: 11e94b13-601d-426c-9ca9-5b92355d0a1f, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 A1美US3|1x, server: a3.ammmd.cc, port: 41903, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
-  - {name: 🇺🇸 T2美US03|1x, server: t3.ammmd.cc, port: 41503, type: trojan, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, sni: osxapps.itunes.apple.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 H1香港HK1|1x, server: h1.ammmd.cc, port: 41601, type: hysteria2, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, auth: 11e94b13-601d-426c-9ca9-5b92355d0a1f, skip-cert-verify: true, udp: true}
   - {name: V2US7|2x, server: vm7.ammmd.cc, port: 41707, type: vmess, uuid: 11e94b13-601d-426c-9ca9-5b92355d0a1f, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: V2US8|2x, server: vm8.ammmd.cc, port: 41708, type: vmess, uuid: 11e94b13-601d-426c-9ca9-5b92355d0a1f, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 V1美US02|1x, server: vm2.ammmd.cc, port: 41702, type: vmess, uuid: 11e94b13-601d-426c-9ca9-5b92355d0a1f, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 T2美US03|1x, server: t3.ammmd.cc, port: 41503, type: trojan, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, sni: osxapps.itunes.apple.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 A2港HK7|2x, server: a7.ammmd.cc, port: 41907, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
+  - {name: 🇰🇷 T2韩KR05|3x, server: t5.ammmd.cc, port: 41505, type: trojan, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, sni: osxapps.itunes.apple.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 A1港HK4|2x, server: a4.ammmd.cc, port: 41904, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
+  - {name: V2US6|2x, server: vm6.ammmd.cc, port: 41706, type: vmess, uuid: 11e94b13-601d-426c-9ca9-5b92355d0a1f, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 A3新SG21|2x, server: a16.aood.cc, port: 41916, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
+  - {name: 🇸🇬 A2新SG9|2x, server: a6.ammmd.cc, port: 41906, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
+  - {name: 🇺🇸 V1美US1, server: 77.110.109.168, port: 41701, type: vmess, uuid: 11e94b13-601d-426c-9ca9-5b92355d0a1f, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 A1港HK5|2x, server: a5.ammmd.cc, port: 41905, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
+  - {name: 🇭🇰 T1香港HK02|1x, server: t2.ammmd.cc, port: 41502, type: trojan, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, sni: osxapps.itunes.apple.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 A1美US|1x, server: 77.110.109.168, port: 41901, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
+  - {name: 🇹🇼 A3台TW24|2x, server: a24.aood.cc, port: 41924, type: anytls, password: 11e94b13-601d-426c-9ca9-5b92355d0a1f, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
   - {name: 🇺🇸 V1美US03|1x, server: vm3.ammmd.cc, port: 41703, type: vmess, uuid: 11e94b13-601d-426c-9ca9-5b92355d0a1f, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇰🇷 V1韩国KR5|5x, server: vm5.ammmd.cc, port: 41705, type: vmess, uuid: 11e94b13-601d-426c-9ca9-5b92355d0a1f, alterId: 0, cipher: auto, tls: false, udp: true}
